@@ -2,16 +2,16 @@ function shout(string) {
   return string.toUpperCase()
 }
 
-function whisper(HELLO) {
-  return HELLO.toLowerCase()
+function whisper(string) {
+  return string.toLowerCase()
 }
 
-function logShout(hello) {
-  console.log(hello).toUpperCase()
+function logShout(string) {
+  console.log(string).toUpperCase()
 }
 
-function logWhisper(HELLO) {
-  console.log(HELLO).toLowerCase()
+function logWhisper(string) {
+  console.log(string).toLowerCase()
 }
 
 // function sayHiToGrandma(string) {
